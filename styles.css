@@ -49,6 +49,7 @@ h1, h2 {
   text-shadow: -1px 1px grey;
 }
 
+/*ABOUT and SEARCH*/
 .header_SiteNav li {
   display: inline-block;
   margin: 0;
@@ -64,6 +65,7 @@ h1, h2 {
   right: 10px;
 }
 
+/*Site title*/
 .header_SiteNav h5 {
   display: inline-block;
   margin: 0;
@@ -217,6 +219,14 @@ article.post {
   font-size: 250%;
 }
 
+.site_footer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
 .authors {
   display: inline-block;
   position: absolute;
@@ -284,24 +294,56 @@ article.post {
   background-position: center;
 }
 
-.site_footer {
-  display: block;
+.bottom {
+  display: inline-block;
   background-image: url(images/footer_image.jpg);
   background-size: cover;
+  background-position: center;
+  position: absolute;
+  bottom: 5px;
+  color: grey;
+  font-size: 80%;
   width: 100%;
   height: 100px;
   margin: 0;
   padding: 0;
+  padding-top: 5px;
 }
 
-.site_footer p, ul {
+.bottom_contents p {
   display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  left: 20px;
+  top: 25px;
 }
 
-.site_footer img{
+.bottom_contents img{
   display: inline-block;
-  height: 40px;
+  position: relative;
+  height: 20px;
   width: auto;
   border: 1px solid grey;
   border-radius: 5px;
+  left: 15px;
+  top: 30px;
+}
+.bottom_contents ul {
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  right: 30px;
+  top: 35px;
+}
+
+.bottom_contents li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom_contents {
+  position: relative;
 }
